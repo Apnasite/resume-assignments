@@ -347,7 +347,7 @@ body {
   }
   .degree, .specialization {
   display: inline-block;
-  font-weight: ;
+  /* font-weight: ; */
   color: #333;
   width: 88mm;
   }

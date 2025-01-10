@@ -1,0 +1,88 @@
+{
+  "name": "string",
+  "uid": "string",
+  "masterId": "string",
+  "module": "Certificate",
+  "config": "object",
+  "companyId": "string",
+  "issuerId": "string",
+ "data":{
+	"profilePicture":"string (URL)",
+        "firstName": "string",
+        "lastName":"string",
+        "profession":"string",
+        "description": "string",
+        "contactDetails": {
+            "phone":"string",
+            "email": "string",
+            "location": "string"
+        },
+        "languages": [
+          {
+            "name": "string",
+            "proficiency": "string"
+          },
+          {
+            "name":"string",
+            "proficiency":"string"
+          },
+          {
+            "name": "string",
+            "proficiency": "string"
+          }
+        ],
+        "interests": ["string", "string","string", "string"],
+        "experience": [
+            {
+                "year":"string",
+                "company": "string",
+                "role": "string",
+                "responsibilities": [
+                    "string",
+                    "string",
+                   "string"
+                ]
+            },
+           
+            {
+                "year": "string",
+                "company":"string",
+                "role": "string",
+                "responsibilities": [
+                    "string"
+                ]
+            }
+            
+        ],
+        "education": [
+          {
+            "course": {
+              "degree": "string",
+              "name": "string"
+            },
+            "university": {
+              "name":  "string",
+              "logo": "string (URL)"
+            },
+            "startDate":  "string",
+            "endDate":  "string"
+          },
+          {
+            "course": {
+              "degree":  "string",
+              "name":  "string"
+            },
+            "university": {
+              "name":  "string",
+              "logo": "string (URL)"
+            },
+            "startDate":  "string",
+            "endDate":  "string"
+          }
+        ],
+        "skills": [
+             "string",  "string",
+             "string",  "string"
+        ]
+    }
+  }

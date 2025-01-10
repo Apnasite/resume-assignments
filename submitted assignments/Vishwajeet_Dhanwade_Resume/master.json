@@ -1,0 +1,45 @@
+{
+  "name": "string",
+  "subHeading": "string",
+  "description": "string",
+  "thumbnail": "string",
+  "module": "string",
+  "category": "string",
+  "type": "string",
+  "tags": "array<string>",
+  "styles": "array<object>",
+  "config": "object",
+  "backgroundSchema": "array<object>",
+  "background": "string",
+  "backgroundUrl": "string",
+  "componentUrl": "string",
+  "components": "array<Components>",
+  "contentSchema": "array<object>",
+  "data":{
+	"profilePicture":"string (URL)",
+        "firstName": "string",
+        "lastName":"string",
+        "profession":"string",
+        "description": "string",
+        "contactDetails": "string",
+           
+        
+        "languages": "string",
+
+        
+        "interests": "string",
+
+
+
+        "experience": "string",
+            
+        
+        "education": "string",
+            
+               
+            
+      
+        "skills":"string"
+    }
+  }
+

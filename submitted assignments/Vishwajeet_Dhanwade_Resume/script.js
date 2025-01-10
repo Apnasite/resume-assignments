@@ -32,7 +32,7 @@ class ResumeComponent extends HTMLElement {
             location: "Spidy Villa, New York",
         },
         languages: ["English", "Hindi", "Marathi"],
-        interests: ["Reading", "Traveling", "Cooking", "Photography"],
+        interests: ["Reading", "Traveling", "Cooking", "Photography",],
         experience: [
             {
                 year: "2024 - Present",
@@ -205,6 +205,7 @@ class ResumeComponent extends HTMLElement {
     }
   
     connectedCallback() {
+        this.updateData();
         this.renderComponent();
     }
   
@@ -220,7 +221,13 @@ class ResumeComponent extends HTMLElement {
             console.error(`Error parsing JSON for ${name}:`, e);
         }
     }
+    updateData() {
+        const updatedData = JSON.parse(this.getAttribute('data'));
+        this.data = updatedData || this.defaultData;
+        console.log(this.data);}
+    
   }
+  
   
   customElements.define("resume-component", ResumeComponent);
   
