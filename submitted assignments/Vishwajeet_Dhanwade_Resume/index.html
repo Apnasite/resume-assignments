@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component Example</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <resume-component
+    config='{
+        "wrapper": "resume-wrapper",
+        "background": "resume-background",
+        "line": "line1",
+        "profilePhoto": "Profile-photo",
+        "name": "name",
+        "surname": "surname",
+        "profession": "profession",
+        "sideBlack": "sideblack",
+        "objectives": "objectives",
+        "contactInfo": "contact-info",
+        "experience": "experience",
+        "education": "education",
+        "skills": "skills",
+        "languages": "languages",
+        "interests": "interests"
+    }'
+    data='{
+        "profilePhoto": "Dipak uniq.jpg",
+        "name": "Richard",
+        "surname": "Parker",
+        "profession": "Developer",
+        "aboutMe": "To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills. To bring my strong sense of dedication, motivation, and responsibility to your organization.",
+        "contact": {
+            "phone": "+91 8546856958",
+            "email": "spidy@gmail.com",
+            "location": "Spidy Villa, New York"
+        },
+        "languages": [" English", "Hindi", "Marathi"],
+        "interests": ["Reading", "Traveling", "Cooking", "Photography"],
+        "experience": [
+            {
+                "year": "2024 - Present",
+                "company": "XYZ Corporation",
+                "role": "Software Developer",
+                "responsibilities": [
+                    "Developing and maintaining web applications",
+                    "Collaborating with cross-functional teams",
+                    "Ensuring code quality"
+                ]
+            },
+           
+            {
+                "year": "2022 - 2024",
+                "company": "ABC Technologies",
+                "role": "Junior Developer",
+                "responsibilities": [
+                    "Assisting in the development of client-side and server-side applications",
+                    "Writing and optimizing code",
+                    "Participating in code reviews"
+                ]
+            }
+            
+        ],
+        "education": [
+            {
+                "year": "2024",
+                "university": "Savitribai Phule Pune University",
+                "degree": "Masters of Science",
+                "specialization": "Computer Science",
+                "percentage": "(Pursuing)"
+            },
+            {
+                "year": "2022",
+                "university": "Savitribai Phule Pune University",
+                "degree": "Bachelor of Science",
+                "specialization": "Computer Science",
+                "percentage": "82.36%"
+            }
+        ],
+        "skills": [
+            {"name": "Design Process", "score": "78%"},
+            {"name": "Project Management", "score": "81%"}
+        ]
+    }'
+    ></resume-component>
+
+    <script src="script.js"></script>
+</body>
+</html>

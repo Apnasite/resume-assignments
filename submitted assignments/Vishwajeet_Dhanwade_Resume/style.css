@@ -1,0 +1,444 @@
+body {
+    /*.letter-background*/
+  }
+  body .resume-wrapper {
+    border: 1pt solid;
+    margin: auto;
+    overflow: hidden;
+    background-color: #aedee230;
+    left: auto;
+    top: auto;
+    width: 210mm;
+    height: 297mm;
+    /* background-image: url("../img/watermark2.png"); */
+    position: relative;
+    /*.main-letter*/
+  }
+  
+  body .resume-wrapper .line1 {
+    position: absolute;
+    left: -1mm;
+    top: 27mm;
+    width: 211mm;
+    height: 35mm;
+    background-color: #043280;
+    z-index: 2;
+  
+   
+  }
+  body .resume-wrapper .line1 .Profile-photo{
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: -6mm;
+    left: 30mm;
+    border: 1mm solid #043280;
+  }
+  
+  body .resume-wrapper .line1 .name{
+    position: absolute;
+    left: 89mm;
+    top: 2mm;
+    width: 118%;
+    height: auto;
+    font-size: 28pt;
+    color: aliceblue;
+  
+  }
+  
+  body .resume-wrapper .line1 .surname{
+    position: absolute;
+    left: 103mm;
+    top: 12mm;
+    width: 118%;
+    height: auto;
+    font-size: 33pt;
+    color: aliceblue;
+  }
+  
+  body .resume-wrapper .line1 .profession{
+    position: absolute;
+    left: 111mm;
+    top: 27mm;
+    width: 99%;
+    height: auto;
+    font-size: 12pt;
+    color: aliceblue;
+  }
+  
+  body .resume-wrapper .sideblack{
+  
+    position: absolute;
+    left: 20mm;
+    top: 0mm;
+    width: 69mm;
+    height: 323mm;
+    background-color: #09090a;
+  
+  }
+  .objective-heading{
+    font-size: 31px;
+    height: 14mm;
+  }
+  
+  body .resume-wrapper .sideblack .objectives{
+    position: absolute;
+    left: -69mm;
+    top: 80mm;
+    width: auto;
+    height: 118mm;
+    margin-left: 72mm;
+    margin-right: 1mm;
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+  .contact-info{
+      left: 8mm;
+      bottom: -143mm;
+      width: 59mm;
+      height: -65mm;
+      position: relative;
+      color: aliceblue;
+      font-size: 20px;
+      line-height: 11mm;
+  }
+  body .resume-wrapper .sideblack .party-phone1{
+    left: 19mm;
+    bottom: -124mm;
+    width: 35mm;
+    height: -65mm;
+    position: relative;
+    color: aliceblue;
+  }
+  body .resume-wrapper .sideblack .phone-icon01 {
+  left: 8mm;
+  top: 133mm;
+  width: 7mm;
+  background-color: #043280;
+  height: 7mm;
+  font-size: 6.2mm;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  }
+  body .resume-wrapper .sideblack .phone-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+  }
+  body .resume-wrapper .sideblack .party-email1 {
+  left: 19mm;
+  bottom: -119mm;
+  width: 35mm;
+  height: 10mm;
+  font-size: 4mm;
+  position: relative;
+  color: aliceblue;
+  }
+  body .resume-wrapper .sideblack .email-icon01 {
+  position: relative;
+  left: 8mm;
+  bottom: -129mm;
+  width: 7mm;
+  background-color: #043280;
+  height: 7mm;
+  font-size: 6.3mm;
+  text-align: center;
+  border-radius: 50%;
+  }
+  body .resume-wrapper .sideblack .email-icon2 {
+    position: absolute;
+    left: 2mm;
+    top: 2mm;
+  }
+  
+  body .resume-wrapper .sideblack .party-location {
+  left: 19mm;
+    bottom: -117mm;
+    width: 35mm;
+    height: 10mm;
+    font-size: 4mm;
+    position: relative;
+    color: aliceblue;
+  }
+  body .resume-wrapper .sideblack .location-icon01 {
+  position: relative;
+  left: 8mm;
+  bottom: -123mm;
+  width: 7mm;
+  background-color: #043280;
+  height: 7mm;
+  font-size: 6.3mm;
+  text-align: center;
+  border-radius: 50%;
+  }
+  
+  body .resume-wrapper .sideblack .icon2 {
+  position: absolute;
+  left: 2mm;
+  top: 2mm;
+  } 
+  body .resume-wrapper .sideblack .language{
+    position: relative;
+    left: 4mm;
+    top: 10mm;
+    color: white;
+    margin-left: 8mm;
+    margin-right: 24mm;
+    font-size: 22px;
+    text-align: justify;
+  }
+  /* .language-heading{
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  height: 5mm;
+  width: 5mm;
+  border-radius: 3mm;
+  
+  
+  } */
+  .languages{
+    height: 10mm;
+    width: 62mm;
+    border: 1mm solid #043280;
+    border-radius: 13mm;
+    padding: 0mm;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 152mm;
+    margin-left: 4mm;
+    font-size: 25px;
+    position: relative;
+    left: -2mm;
+    top: 2mm;
+  
+  }
+  
+  body .resume-wrapper .sideblack .interest{
+    position: relative;
+    left: 0mm;
+    top: 12mm;
+    color: white;
+    margin-left: 8mm;
+    margin-right: 19mm;
+    font-size: 20px;
+    text-align: justify;
+}
+  
+  .interests{
+    height: 9mm;
+    width: 58mm;
+    border: 1mm solid #043280;
+    border-radius: 13mm;
+    padding: 1mm;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 38mm;
+    margin-left: 4mm;
+    font-size: 26px;
+  }
+  
+  
+  
+  body .resume-wrapper .experience{
+    height: 6mm;
+    width: 30mm;
+    border: 1mm solid #043280;
+    border-radius: 13mm;
+    padding: 2mm;
+    text-align: justify;
+    background-color: #043280;
+    color: white;
+    position: absolute;
+    top: 73mm;
+    left: 109mm;
+    font-size: 22px;
+  }
+  
+  .job{
+    position: relative;
+      left: -16mm;
+      top: 10mm;
+      width: 92mm;
+      height: 43mm;
+      font-size: 20px;
+      color: #09090a;
+  
+  }
+  .experince-heading{
+  height: 5mm;
+  width: 46mm;
+  border: 1mm solid #043280;
+  border-radius: 13mm;
+  padding: 2mm;
+  text-align: center;
+  background-color: #043280;
+  color: aliceblue;
+  
+  }
+  
+  body .resume-wrapper .education{
+    height: 5mm;
+    width: 30mm;
+    border: 1mm solid #043280;
+    border-radius: 13mm;
+    padding: 2mm;
+    text-align: justify;
+    background-color: #043280;
+    color: aliceblue;
+    left: 89mm;
+    top: 176mm;
+    position: absolute;
+    font-size: 20px;
+  }
+  
+  .degree{
+      position: relative;
+      left: -15mm;
+      top: 10mm;
+      width: auto;
+      height: 23mm;
+      font-size: 19px
+  }
+  
+  /* .educationheading {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  } */
+  
+  .educationheading:last-child {
+  border-bottom: none;
+  }
+  
+  /* .year, .university, .percentage {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  }  */
+  
+  .year {
+  font-size: 18px;
+  color: #007BFF;
+  }
+  
+  .university {
+  font-size: 18px;
+  color: #555;
+  }
+  
+  .percentage {
+  font-size: 16px;
+  color: #999;
+  }
+  
+  .educationlists {
+  margin-top: 10px;
+  margin-left: 20px;
+  }
+  .degree, .specialization {
+  display: inline-block;
+  /* font-weight: ; */
+  color: #333;
+  width: 88mm;
+  }
+  
+  .education-heading{
+  height: 5mm;
+  width: 46mm;
+  border: 1mm solid #043280;
+  border-radius: 13mm;
+  padding: 2mm;
+  text-align: center;
+  background-color: #043280;
+  color: aliceblue;
+  
+  }
+  
+  body .resume-wrapper .skills{
+    position: absolute;
+    top: 248mm;
+    left: 95mm;
+    height: 5mm;
+    width: 46mm;
+    border: 1mm solid #043280;
+    border-radius: 13mm;
+    padding: 2mm;
+    text-align: center;
+    background-color: #043280;
+    color: aliceblue;
+    font-size: 20px;
+  }
+  
+  .skill{
+    position: relative;
+    left: -6mm;
+    top: 7mm;
+    width: auto;
+    height: 13mm;
+    font-size: 19px;
+    /* margin-left: 73mm; */
+    margin-right: -10mm;
+    color: #09090a;
+  }
+  
+  .skill-item-score-bar{
+  width: 50mm;
+  height: 11mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  margin-left: 143mm;
+  margin-top: 8mm;
+  }
+  
+  .skill-item-score-bar :nth-child(1) {
+  background-color: rgb(191, 191, 201);
+  height: 3mm;
+  width: 50mm;
+  border-radius: 1mm;
+  }
+  
+  .skill-item-score-bar :nth-child(1) p{
+  background-color: rgb(28, 56, 179);
+  
+  height: 3mm;
+  width: 40mm;
+  position: absolute;
+  margin-top: 0mm;
+  border-radius: 1mm;
+  }
+  
+  .skill-item-score-bar :nth-child(2) {
+  background-color: rgb(191, 191, 201);
+  height: 3mm;
+  width: 50mm;
+  border-radius: 1mm;
+  }
+  
+  .skill-item-score-bar :nth-child(2) p{
+  background-color: rgb(28, 56, 179);
+  height: 3mm;
+  width: 44mm;
+  position: absolute;
+  margin-top: 0mm;
+  border-radius: 1mm;
+  }
+  
+  .percentage2{
+  margin-top: 7mm;
+  margin-left: 197mm;
+  }
+
+
+  
