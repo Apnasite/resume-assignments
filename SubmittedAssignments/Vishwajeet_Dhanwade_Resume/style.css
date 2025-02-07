@@ -94,14 +94,14 @@ body {
     height: 118mm;
     margin-left: 72mm;
     margin-right: 1mm;
-    font-size: 18px;
+    font-size: 17px;
     color: aliceblue;
     text-align: center;
   }
   
   .contact-info{
       left: 8mm;
-      bottom: -143mm;
+      bottom: -150mm;
       width: 59mm;
       height: -65mm;
       position: relative;
@@ -207,71 +207,71 @@ body {
   
   } */
   .languages{
-    height: 10mm;
+    height: 14mm;
     width: 62mm;
     border: 1mm solid #043280;
     border-radius: 13mm;
     padding: 0mm;
     text-align: center;
     color: aliceblue;
-    margin-top: 152mm;
+    margin-top: 126mm;
     margin-left: 4mm;
     font-size: 25px;
     position: relative;
     left: -2mm;
-    top: 2mm;
+    top: 6mm;
   
   }
   
   body .resume-wrapper .sideblack .interest{
     position: relative;
     left: 0mm;
-    top: 12mm;
+    top: 5mm;
     color: white;
     margin-left: 8mm;
-    margin-right: 19mm;
+    margin-right: 8mm;
     font-size: 20px;
     text-align: justify;
 }
   
   .interests{
-    height: 9mm;
+    height: 15mm;
     width: 58mm;
     border: 1mm solid #043280;
     border-radius: 13mm;
     padding: 1mm;
     text-align: center;
     color: aliceblue;
-    margin-top: 38mm;
+    margin-top: 45mm;
     margin-left: 4mm;
-    font-size: 26px;
+    font-size: 27px;
   }
   
   
   
   body .resume-wrapper .experience{
-    height: 6mm;
-    width: 30mm;
+    height: 11mm;
+    width: 35mm;
     border: 1mm solid #043280;
     border-radius: 13mm;
-    padding: 2mm;
+    padding: 0mm;
     text-align: justify;
     background-color: #043280;
     color: white;
     position: absolute;
     top: 73mm;
-    left: 109mm;
+    left: 115mm;
     font-size: 22px;
   }
   
   .job{
     position: relative;
-      left: -16mm;
-      top: 10mm;
-      width: 92mm;
-      height: 43mm;
-      font-size: 20px;
-      color: #09090a;
+    left: -19mm;
+    top: 2mm;
+    width: 108mm;
+    height: 46mm;
+    font-size: 20px;
+    color: #09090a;
   
   }
   .experince-heading{
@@ -287,19 +287,20 @@ body {
   }
   
   body .resume-wrapper .education{
-    height: 5mm;
-    width: 30mm;
+    height: 12mm;
+    width: 32mm;
     border: 1mm solid #043280;
     border-radius: 13mm;
-    padding: 2mm;
+    padding: 1mm;
     text-align: justify;
     background-color: #043280;
     color: aliceblue;
     left: 89mm;
-    top: 176mm;
-    position: absolute;
+    top: 147mm;
+    position: relative;
     font-size: 20px;
-  }
+}
+  
   
   .degree{
       position: relative;
@@ -365,11 +366,11 @@ body {
   }
   
   body .resume-wrapper .skills{
-    position: absolute;
-    top: 248mm;
-    left: 95mm;
-    height: 5mm;
-    width: 46mm;
+    position: relative;
+    top: 202mm;
+    left: 86mm;
+    height: 13mm;
+    width: 59mm;
     border: 1mm solid #043280;
     border-radius: 13mm;
     padding: 2mm;
