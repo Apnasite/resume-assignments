@@ -28,6 +28,7 @@ class IssueComponent extends HTMLElement {
       super();
       this.config = { ...this.defaultConfig };
       this.data = [...this.defaultData];
+      console.log('IssueComponent')
   }
 
   connectedCallback() {
@@ -229,6 +230,7 @@ class IssueComponent extends HTMLElement {
         super();
         this.config = this.defaultConfig;
         this.data = this.defaultData;
+        console.log('ResumeComponent')
     }
     static get observedAttributes() {
         return ["config", "data"];
