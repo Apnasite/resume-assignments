@@ -32,6 +32,7 @@ class IssueComponent extends HTMLElement {
   }
 
   connectedCallback() {
+    console.log('this.data',this.data)
       this.renderComponent();
       this.setupDynamicButtons();
   }
@@ -43,7 +44,8 @@ class IssueComponent extends HTMLElement {
               this.config = { ...this.config, ...JSON.parse(newValue) };
           }
           if (name === "data" && typeof newValue === "string") {
-              this.data = JSON.parse(newValue);
+              let newVal= JSON.parse(newValue);
+              this.data =newVal.data
           }
       } catch (e) {
           console.error(e);
@@ -364,6 +366,7 @@ class IssueComponent extends HTMLElement {
     }
   
     connectedCallback() {
+        console.log('this.data',this.data)
         this.updateData();
         this.renderComponent();
     }
