@@ -38,6 +38,7 @@ class IssueComponent extends HTMLElement {
 
   attributeChangedCallback(name, oldValue, newValue) {
       try {
+        console.log('newValue',newValue)
           if (name === "config" && typeof newValue === "string") {
               this.config = { ...this.config, ...JSON.parse(newValue) };
           }
@@ -369,11 +370,12 @@ class IssueComponent extends HTMLElement {
   
     attributeChangedCallback(name, oldValue, newValue) {
         try {
+            console.log('newValue',newValue)
             if (name === "config" && typeof newValue === "string") {
                 this.config = Object.assign(this.config, JSON.parse(newValue));
             }
             if (name === "data" && typeof newValue === "string") {
-                this.data = Object.assign(this.data, JSON.parse(console));
+                this.data = Object.assign(this.data, JSON.parse(newValue));
             }
         } catch (e) {
             console.error(`Error parsing JSON for ${name}:`, e);
