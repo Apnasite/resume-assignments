@@ -59,7 +59,7 @@ class IssueComponent extends HTMLElement {
 
       const form = document.createElement("form");
 
-      this.data.forEach(field => {
+      this.defaultData.forEach(field => {
           this.addFieldToForm(form, field);
       });
 
