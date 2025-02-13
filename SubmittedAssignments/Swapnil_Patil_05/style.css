@@ -1,0 +1,137 @@
+.background{
+    height: 300mm;
+    width: 200mm;
+    border: solid 1mm black;
+    justify-items: center;
+}
+.header .title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13mm;
+    letter-spacing: 0.5mm;
+    color: rgb(65, 64, 64);
+}
+.header .post{
+    text-align: center;
+    position: relative;
+    bottom: 7mm;
+    color: rgb(125, 123, 123);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* nav */
+.nav{
+    height: 10mm;
+    width: 180mm;
+    background-color: #839AB2;
+    position: relative;
+    bottom: 5mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .number{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav .email{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 2mm;
+}
+.nav .location{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 4mm;
+}
+
+.nav .linkdin{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 6mm;
+}
+
+/* content */
+
+.objective{
+    width: 180mm;
+}
+.career{
+    color: #4b4b4d;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5mm;
+    font-size: 6mm;
+    text-align: center;
+}
+.hr{
+    width: 180mm;
+    position: relative;
+    bottom: 2mm;
+}
+.objective .paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 2mm;
+    text-align:justify ;
+}
+    
+.section .education{
+    color: #4b4b4d;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5mm;
+    font-size: 6mm;
+    text-align: center;
+    position: relative;
+    top: 5mm;
+}
+.hr2{
+    width: 180mm;
+    position: relative;
+    top: 3mm;
+}
+.hsc{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin: 6mm 0 0 0;
+    padding: 0;
+    position: relative;
+    top: 5mm;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    position: relative;
+    bottom: 7.5mm;
+    font-weight: bolder;
+    color: #797c7e;
+    padding: 0;
+}
+
+.footer{
+    position: relative;
+    bottom: 5mm;
+    text-align: justify;
+    width: 180mm;
+}
+
+.work{
+    font-size: 7mm;
+    letter-spacing: 0.5mm;
+    color: #555656;
+    position: relative;
+    top: 3mm;
+    text-align: center;
+}
+
+.li2{
+    position: relative;
+    top: 18mm;
+}
+.li1{
+    position: relative;
+    top: 9mm;
+}
