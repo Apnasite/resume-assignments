@@ -1,0 +1,221 @@
+/* Wrapper for the entire resume component */
+.resume-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border:0.5mm solid black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    height:270mm;
+}
+
+/* Title (Name at the top) */
+.resume-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Contact info section */
+.resume-contact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style-type: none;
+    margin-top:-2mm;
+}
+
+.resume-contact li {
+    display: inline;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Adding solid circle bullet points */
+.resume-contact li::before {
+    content: "•";
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* Professional Summary Heading */
+.resume-summary-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:-130mm;
+    color: #222;
+    text-transform: capitalize;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Professional Summary Text */
+.resume-summary-text {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    margin-left:-4mm;
+}
+
+/* Professional Experience Heading */
+.resume-experience-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:-125mm;
+    color: #222;
+    text-transform:capitalize;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Job Titles */
+.resume-job-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 6px;
+    color: #333;
+    position:absolute;
+    left:16mm;
+}
+
+/* Job Company & Duration */
+.resume-job-company {
+    font-size: 16px;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 15px;
+    margin-right:-135mm;
+}
+
+/* Job Description */
+.resume-experience-text {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+
+/* Professional Experience Text */
+.resume-experience-text {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+    padding-left: 20px;
+}
+
+/* Add bullet points for experience details */
+.resume-experience-text::before {
+    content: "• ";
+    color: black;
+    font-weight: bold;
+}
+
+/* Background container */
+.resume-background {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+/* Consultancy Heading */
+.resume-consultancy-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:-160mm;
+    text-align:left;
+    color: #222;
+    text-transform: capitalize;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Consultancy Text */
+.resume-consultancy-text {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align:justify;
+    padding-left: 20px;
+    margin-left:4mm;
+}
+/* Education Heading */
+.resume-education-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:-168mm;
+    color: #222;
+    text-transform:capitalize;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Education Text */
+.resume-education-text {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align:justify;
+    padding-left: 20px;
+}
+/* Skills Heading */
+.resume-skills-heading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left:-176mm;
+    color: #222;
+    text-transform: uppercase;
+    border-bottom: 2px solid #222;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Skills Text */
+.resume-skills-text {
+    font-size: 16px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+
