@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Document</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <resume-component config='{
+      "wrapper": "resume-wrapper",
+        "background": "resume-background",
+        "titleClass": "resume-title",
+        "contactClass": "resume-contact",
+        "summaryHeadingClass": "resume-summary-heading",
+        "summaryTextClass": "resume-summary-text",
+        "experienceHeadingClass": "resume-experience-heading",
+        "experienceTextClass": "resume-experience-text",
+        "consultancyHeadingClass": "resume-consultancy-heading", 
+        "consultancyTextClass": "resume-consultancy-text", 
+        "educationHeadingClass": "resume-education-heading", 
+        "educationTextClass": "resume-education-text", 
+        "skillsHeadingClass": "resume-skills-heading", 
+        "skillsTextClass": "resume-skills-text"
+        
+    }' data='{
+        "name": "Charles Boomberg",
+        "mobile": "+91 234 567 890",
+        "location": "New York,USA",
+        "gmail": "charles.boomberg@gmail.com",
+        "summary": "Experienced software engineer with a passion for building scalable web applications.",
+        "experience": [
+            {"title": "Senior Software Engineer","company": "XYZ Corp","duration": "2018 - Present","description": "Developed and maintained high-performance web applications using JavaScript, React, and Node.js. Led a team of developers to implement innovative features, improving user engagement by 25%."},
+            {"title": "Software Developer","company": "ABC Technologies","duration": "2015 - 2018","description": "Designed and optimized backend services using Python and AWS. Reduced API response time by 40% and improved scalability by migrating to microservices architecture."},
+            {"title": "Junior Developer","company": "Startup Labs","duration": "2013 - 2015","description": "Worked on UI/UX design and front-end development for multiple startup projects. Developed interactive dashboards that enhanced user experience and data visualization."}
+        ],
+        "consultancy": "Worked as an independent consultant for multiple Fortune 500 companies, providing expertise in software architecture, performance optimization, and cloud migration strategies.",
+        "education": "Master of Science in Computer Science - MIT (2014 - 2016). Bachelor of Science in Information Technology - Stanford University (2010 - 2014).",
+        "skills": "JavaScript, React, Node.js, Python, AWS"
+     }'></resume-component>
+</body>
+<script src="./script.js"></script>
+
+</html>
