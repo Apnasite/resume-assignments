@@ -1,0 +1,288 @@
+body {
+  /*.letter-background*/
+}
+
+body .resume-wrapper {
+  border: 1pt solid;
+  margin: auto;
+  overflow: hidden;
+  background-color: #aedee230;
+  left: auto;
+  top: auto;
+  width: 210mm;
+  height: 297mm;
+  /* background-image: url("../img/watermark2.png"); */
+  position: relative;
+  /*.main-letter*/
+}
+
+body .resume-wrapper .line1 {
+  position: absolute;
+  left: -1mm;
+  top: 45mm;
+  width: 211mm;
+  height: 2mm;
+  background-color: #e54343;
+}
+
+body .resume-wrapper .line2 {
+  position: absolute;
+  left: -1mm;
+  top: 47mm;
+  width: 211mm;
+  height: 2mm;
+  background-color: #e4c62f;
+}
+
+body .resume-wrapper .line3 {
+  position: absolute;
+  left: -1mm;
+  top: 49mm;
+  width: 211mm;
+  height: 2mm;
+  background-color: #ff4586;
+}
+
+body .resume-wrapper .line4 {
+  position: absolute;
+  left: -1mm;
+  top: 51mm;
+  width: 211mm;
+  height: 2mm;
+  background-color: #3225ef;
+}
+
+body .resume-wrapper .sideblack {
+
+  position: absolute;
+  left: 0mm;
+  top: 53mm;
+  width: 69mm;
+  height: 277mm;
+  background-color: #05113b;
+
+}
+
+body .resume-wrapper .resume-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+body .resume-wrapper .resume-content .Profile-photo {
+  width: 140px;
+  height: 144px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 1mm;
+  left: 16mm;
+
+}
+
+body .resume-wrapper .resume-content .name {
+  position: absolute;
+  left: 96mm;
+  top: 8mm;
+  width: 118%;
+  height: auto;
+  font-size: 26pt;
+}
+
+body .resume-wrapper .resume-content .profession {
+  position: absolute;
+  left: 92mm;
+  top: 25mm;
+  width: 99%;
+  height: auto;
+  font-size: 18pt;
+}
+
+body .resume-wrapper .resume-content .contact {
+  position: absolute;
+  left: 6mm;
+  top: 68mm;
+  color: wheat;
+  width: 99%;
+  height: auto;
+  font-size: 16px;
+}
+
+body .resume-wrapper .resume-content .objectives {
+  position: absolute;
+  left: 0mm;
+  top: 57mm;
+  width: auto;
+  height: 118mm;
+  margin-left: 72mm;
+  margin-right: 1mm;
+  font-size: 16px;
+}
+
+body .resume-wrapper .resume-content .skills {
+  position: absolute;
+  left: 5mm;
+  top: 116mm;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body .resume-wrapper .resume-content .language {
+  position: absolute;
+  left: -178mm;
+  top: 205mm;
+  color: white;
+  margin-left: 184mm;
+  margin-right: 24mm;
+  font-size: 16px;
+}
+
+
+body .resume-wrapper .resume-content .experience {
+  position: absolute;
+  left: 0mm;
+  top: 145mm;
+  width: auto;
+  height: 118mm;
+  font-size: 16px;
+  margin-left: 72mm;
+  margin-right: 1mm;
+}
+
+
+.interest {
+  position: absolute;
+  left: -178mm;
+  top: 233mm;
+  color: white;
+  margin-left: 184mm;
+  margin-right: 24mm;
+  font-size: 16px;
+}
+
+body .resume-wrapper .resume-content .education {
+  position: absolute;
+  left: 0mm;
+  top: 112mm;
+  width: auto;
+  /* height: 118mm; */
+  font-size: 16px;
+  margin-left: 72mm;
+  margin-right: 1mm;
+}
+
+/* .educationheading {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+} */
+
+.educationheading:last-child {
+  border-bottom: none;
+}
+
+/* .year, .university, .percentage {
+    display: block;
+    font-weight: bold;
+    color: #333;
+}  */
+
+.year {
+  font-size: 18px;
+  color: #007BFF;
+}
+
+.university {
+  font-size: 18px;
+  color: #555;
+}
+
+.percentage {
+  font-size: 16px;
+  color: #999;
+}
+
+.educationlists {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.degree,
+.specialization {
+  display: inline-block;
+  font-weight: bold;
+  color: #333;
+  width: 150px;
+}
+
+.skills-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.objective-heading {
+  position: absolute;
+  top: -2mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.education-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.experince-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.interest-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.language-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.contact-heading {
+  position: absolute;
+  top: -8mm;
+  left: 1mm;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* .objective-description{
+  position: absolute;
+  top: -2mm;
+  left: 1mm;
+  font-size: 16px;
+ 
+
+} */
